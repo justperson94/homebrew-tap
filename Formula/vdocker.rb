@@ -6,12 +6,12 @@ class Vdocker < Formula
 
   on_macos do
     url "https://github.com/justperson94/vdocker/releases/download/v0.2.3/vdocker-darwin-amd64"
-    sha256 "c59c95a0dcc77786efda98acb8a98c28984c78ba33dfa4fb578b425b0a7d6ec4"
+    sha256 "024ecadd35efcab7efad5e263dbcfdc9fda49601a494d656b0a1f52b523b3010"
   end
 
   on_linux do
     url "https://github.com/justperson94/vdocker/releases/download/v0.2.3/vdocker-linux-amd64"
-    sha256 "cf749d0caa42c9758c34f1bc45e9f175c0a7b4b3fe43ef3a40927b423db96653"
+    sha256 "f39b387e0060bda949449e60d75eb27189b9ad3e6d9b6215744dc480962b7e2d"
   end
 
   def install
