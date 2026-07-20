@@ -1,17 +1,17 @@
 class Vdocker < Formula
   desc "Visualize Docker objects and their relationships in grouped/tree format"
   homepage "https://github.com/justperson94/vdocker"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
-    url "https://github.com/justperson94/vdocker/releases/download/v0.3.0/vdocker-darwin-amd64.tar.gz"
-    sha256 "8ca1fbb3c239ae2b0c2b6236290084ed93c68700e6b39024477375d39c3025a9"
+    url "https://github.com/justperson94/vdocker/releases/download/v0.4.0/vdocker-darwin-amd64.tar.gz"
+    sha256 "c7ac3d64bf05b668365c8f9ff39176545b90b8f43190130cfdafbd438f40873e"
   end
 
   on_linux do
-    url "https://github.com/justperson94/vdocker/releases/download/v0.3.0/vdocker-linux-amd64.tar.gz"
-    sha256 "53998124ba532683f50d37f12da922f72f4c642e73e984544624d15a1352c877"
+    url "https://github.com/justperson94/vdocker/releases/download/v0.4.0/vdocker-linux-amd64.tar.gz"
+    sha256 "03b8238d259566a4a07286e5106bb0474292bd7401dead6d3e00b37c53b06d72"
   end
 
   def install
